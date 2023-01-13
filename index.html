@@ -1,189 +1,302 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" class="no-js">
 <head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Page Title -->
-    <title>RuralConsulting | Home</title>
-    <!-- Bundle -->
-    <link rel="stylesheet" href="vendor/css/bundle.min.css">
-    <!-- Plugin Css -->
-    <link rel="stylesheet" href="vendor/css/revolution-settings.min.css">
-    <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="vendor/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendor/css/swiper.min.css">
-    <link rel="stylesheet" href="vendor/css/cubeportfolio.min.css">
-    <link rel="stylesheet" href="vendor/css/LineIcons.min.css">
-    <link rel="stylesheet" href="vendor/css/jquery-ui.bundle.css">
-    <link rel="stylesheet" href="vendor/css/select2.min.css">
-    <link rel="stylesheet" href="vendor/css/slick-theme.css">
-    <link rel="stylesheet" href="vendor/css/slick.css">
-    <!--    <link rel="stylesheet" href="../vendor/css/animate.css">-->
-    <!-- Style Sheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>Rural Consulting</title>
+    <!-- INCLUDES -->
+    <link rel="stylesheet" href="fonts/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+
+    <!-- CSS TEMPLATE STYLES -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- MODERNIZR LIBRARY -->
+    <script src="js/lib/modernizr-custom.js"></script>
 </head>
-<body class="position-relative">
-
-
-<!--Header Start-->
-<header class="cursor-light">
-
-    <!--Navigation-->
-    <nav class="navbar navbar-top-default nav-radius navbar-expand-lg">
-        <div class="container">
-            <a href="index.html" title="Logo" class="logo">
-                <!--Logo Default-->
-                <img src="assets/img/rural_consuluting_logo.png" style="height:60px;" alt="logo" class="logo-dark logo-default">
-                <img src="assets/img/rural_consuluting_logo.png" style="height:60px; alt="logo" class="logo-light logo-scrolled">
+<body>
+<header>
+    <!-- NAV START -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container p-0">
+            <a href="index.html" class="navbar-brand">
+                <img class="white-logo" src="assets/img/white_logo.png" alt="logo">
+                <img class="black-logo" src="assets/img/black_logo.png" alt="logo">
             </a>
-
-            <!--Nav Links-->
-            <div class="collapse navbar-collapse">
-                <div class="navbar-nav ml-250">
-                    <a class="nav-link active" href="index.html">Home</a>
-                    <a class="nav-link" href="our-work.html">Our Work</a>
-                    <a class="nav-link" href="our-people.html">Our People</a>
-                    <a class="nav-link" href="contact-us.html">Contact Us</a>
-                </div>
-
+            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="menu-icon-bar"></span>
+                <span class="menu-icon-bar"></span>
+                <span class="menu-icon-bar"></span>
+            </button>
+            <div id="main-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li><a href="#services" class="nav-item nav-link">Services</a></li>
+                    <li><a href="#our-people" class="nav-item nav-link">People</a></li>
+                    <li><a href="#case-studies" class="nav-item nav-link last-link-item">Case Study</a></li>
+                    <li><a href="#contact" class="nav-item nav-link last-link-item">Contact</a></li>
+                </ul>
             </div>
-            <!--Side Menu Button-->
-            <a href="javascript:void(0)" class="parallax-btn sidemenu_btn" id="sidemenu_toggle">
-                <div class="animated-wrap sidemenu_btn_inner">
-                    <div class="animated-element">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </a>
         </div>
     </nav>
+    <!-- NAV END -->
 
-    <!--Side Nav-->
-    <div class="side-menu hidden">
-        <div class="inner-wrapper">
-            <span class="btn-close link" id="btn_sideNavClose"></span>
-            <nav class="side-nav w-100">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="our-work.html">Our Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="our-people.html">Our People</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="side-footer text-white w-100">
-                <p class="text-white">&copy; 2022 RuralConsulting.</p>
+    <!--HERO START-->
+    <div class="home-slider">
+        <div class="hero-slider" data-carousel>
+            <div id="slider-image" class="carousel-cell">
+                <div class="overlay"></div>
+                <div class="container slider-caption">
+                    <h1 class="title"><span class="color-text">People</span> Profit<br/><span class="color-text"> Environment</span></h1>
+                    <h5 class="subtitle">This is what we do</h5>
+                </div>
+                <div id="bottom-right-label"></div>
             </div>
         </div>
     </div>
-    <a id="close_side_menu" href="javascript:void(0);"></a>
-    <!-- End side menu -->
+    <!--HERO END-->
 </header>
-<!--Header end-->
 
-<section class="about-banner pb-0 padding-100">
-    <h2 class="d-none">Home</h2>
-    <div class="about-img parallaxie">
-        <div class="bg-overlay opacity-7 bg-blue"></div>
+<!-- CONTENT START -->
+<!-- ABOUT START -->
+<section>
+    <div id="about" class="container pt-5 mb-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="ag-home-about">
+                    <h2><span class="light-text">A bit</span> about us</h2>
+                    <p>
+                        Farming in New Zealand has seldom faced as many challenges as it does today – With our expertise in environmental management and farm systems analysis, we are here to work with farmers and rural communities to enable them to farm into the future. Rural Consulting works with farmers, catchment groups, iwi, central and local government, all of whom have a part to play in making New Zealand agriculture the most sustainable in the world.
+                    </p>
+                    <p class="font-weight-bold">People, Profit, Environment, this is what we do.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-mt-lg d-flex flex-column justify-content-center">
+                <figure class="ag-home-about-img">
+                    <img src="images/advisor.jpg" alt="Hurunui catchment farm advisor">
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ABOUT END -->
+
+<!-- SERVICES START -->
+<section id="services">
+    <div class="scroll-target cta-counter mt-5 mb-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="text-capitalize mb-15 text-center text-white">People, Profit, Environment</h2>
-                    <h4 class="text-white text-center">This is what we do.</h4>
+                <div class="col-md-6">
+                    <div class="cta-content">
+                        <h3><span class="light-text">Our </span>Services</h3>
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section>
+    <div class="container">
+        <div class="counter-wrapper-alt">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="media counter-col-alt counter-border-right-alt">
+                        <div class="media-body">
+                            <a href="#">
+                                <p>( IMAGE )</p>
+                                <p>On Farm</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media counter-col-alt counter-border-right-alt">
+                        <div class="media-body">
+                            <a href="#">
+                                <p>( IMAGE )</p>
+                                <p>Rural Communities</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media counter-col-alt">
+                        <div class="media-body">
+                            <a href="#">
+                                <p>( IMAGE )</p>
+                                <p>Policy &amp; Implementation</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- SERVICES END -->
+
+<!-- PEOPLE START -->
+<section id="our-people">
+    <div class="container scroll-target pt-4 mb-5">
+        <div class="cp-title">
+            <h5>Advisors</h5>
+            <h2><span class="light-text">Our </span>People</h2>
+            <p>The Catchment Farm Advisors are available to support our member farmers</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="item">
+                    <div class="thumbnail-box">
+                        <figure class="thumbnail-box-img">
+                            <img src="/assets/img/people/JoshPortrait.JPG" alt="Josh Brown">
+                        </figure>
+                        <div class="thumbnail-box-caption">
+                            <h3>Josh Brown</h3>
+                            <h4>Managing Director</h4>
+                            <p>
+                                Josh has a background in environmental consultancy and has worked across the fertiliser industry and with catchment groups. He is an expert in catchment group development and strategy, environmental project development, and agricultural environmental policy implementation. He has advised and works with farmers, Regional and Central government organisations, Catchment Groups, communities, and Iwi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="item">
+                    <div class="thumbnail-box">
+                        <figure class="thumbnail-box-img">
+                            <img src="/assets/img/people/JohnPortrait.JPG" alt="John Holmes">
+                        </figure>
+                        <div class="thumbnail-box-caption">
+                            <h3>John Holmes</h3>
+                            <h4>Farm Consultant</h4>
+                            <p>
+                                Originally a farmer from Mid-Canterbury, John is passionate about New Zealand’s agricultural industry. With 25 years farming experience, coupled with industry roles with Beef + Lamb New Zealand and Ravensdown (Environmental), John a Certified Nutrient Management advisor helps farmers navigate the changing regulatory landscape and develop farm plans while making their businesses and communities more robust and sustainable.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="item">
+                    <div class="thumbnail-box">
+                        <figure class="thumbnail-box-img">
+                            <img src="/assets/img/people/HarryPortrait.JPG" alt="Harry Millar">
+                        </figure>
+                        <div class="thumbnail-box-caption">
+                            <h3>Harry Millar</h3>
+                            <h4>Farm Consultant</h4>
+                            <p>
+                                With a diverse background, growing up in the high country, working as a fencer and as a land management advisor for ECAN, Harry has an empathy and unique ability to work with farmers to develop integrated solutions that combine/mesh environmental requirements with farm management and business development. He has skills in biodiversity enhancement, Emissions Trading Scheme (ETS) advice, environmental policy, and farm production planning and analysis. Harry is a Certified Nutrient Management advisor, and Farmax elite accredited user. (Harry grew up on a high-country station up the Ashburton Gorge before moving to a Sheep, Beef and Deer property in Peel Forest. With an academic background in Geography, Geology and Environmental Management, Harry now enjoys combining this with practical on-farm solutions to achieve the best all round outcome for the farm’s natural resources and economic viability. Previous roles include time spent in the rural fencing industry, a year on the Banks Peninsula as a Land Management Advisor with Environment Canterbury and now as a Catchment Farm Advisor with the Hurunui District Landcare Group (HDLG). These roles have given him a wide variety of experience across diverse farm systems, ranging from extensive high country to intensive dairy. No two farms are the same and it is this opportunity to understand the goals of each business and how best to support them that Harry enjoys the most. Always keen to talk about farming, weather and sport, feel free to get in touch.)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="item">
+                    <div class="thumbnail-box">
+                        <figure class="thumbnail-box-img">
+                            <img src="https://via.placeholder.com/2400x3600.png?text=Coming+soon" alt="Ian Brown">
+                        </figure>
+                        <div class="thumbnail-box-caption">
+                            <h3>Ian Brown</h3>
+                            <h4>Principal Advisor</h4>
+                            <p>
+                                Ian has a long history in environmental and resource policy and management developed over his 50 year career working in catchment boards, regional councils and as a consultant. Ian is an expert in resource management, regional policy implementation, soil conservation, sustainable land use, farm environmental planning (including Freshwater Farm Plans), and community and iwi engagement. Ian, as one of the original creators of farm environment plans has contributed to their development as a tool for farmers and rural communities to see improved environmental outcomes over several decades.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!-- PEOPLE END -->
 
-<!--About Sec-->
-<section class="bg-white">
-    <h2 class="d-none">Home</h2>
-    <div class="container">
+<!-- CASE STUDIES START -->
+<section id="case-studies" class="carousel-parallax2">
+    <div class="container mb-5">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10">
+                <div class="product-information">
+                    <figure class="product-feauture">
+                        <img src="images/waipara_about.jpg">
+                    </figure>
+                    <div class="product-details ag-home-about">
+                        <div class="layer-title">
+                            <h2>Case <span class="light-text">Studies</span></h2>
+                        </div>
+                        <p class="font-weight-bold">
+                            Established in 2016, the Hurunui District Landcare Group is an independent catchment
+                            group of approx. 140, predominantly dryland sheep and beef farmers from within the Hurunui
+                            District. The group is run as an incorporated society with an aim of promoting on farm good
+                            practise.
+                        </p>
+                        <p>
+                            Since its inception, HDLG has facilitated the development of Farm Environment Plans (FEP)
+                            for its members' farms, and assisted in getting Plan Change 1 (PC1) approved in the Hurunui
+                            Waiau River Regional Plan (HWRRP), which will enable “dryland” farming to be a permitted
+                            activity. It has also partnered with Environment Canterbury to develop and deliver the
+                            first Hill Country Erosion programme in Canterbury since the end of the Catchment Boards.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CASE STUDIES END -->
+
+<!-- CONTENT END -->
+
+<!-- FOOTER START -->
+<footer>
+    <div id="contact" class="container">
+        <div class="top-footer">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Rural <span class="light-text">Consulting</span></h4>
+                    <p>People, Profit, Environment</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer-btns">
+                        <a href="mailto:josh@ruralconsulting.co.nz" class="btn btn-green button">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-divider">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <!--<h4 class="">Lorem ipsum dolor sit am et</h4>-->
-                <h2>Rural Consulting</h2>
-                <p class="about-max pt-10">
-                    Farming in New Zealand has seldom faced as many challenges as it does today – With our expertise
-                    in environmental management and farm systems analysis, we are here to work with farmers and
-                    rural communities to enable them to farm into the future.
-                    Rural Consulting works with farmers, catchment groups, iwi, central and local government, all of
-                    whom have a part to play in making New Zealand agriculture the most sustainable in the world.
-                </p>
+            <div class="col-md-6">
                 <p>
-                    <br>
-                    <em>People, Profit, Environment, this is what we do.</em>
+                    Josh Brown<br/>
+                    Managing Director<br/>
+                    <i class="fas fa-phone-alt"></i> 027 774 7778<br/>
+                    <i class="fas fa-envelope"></i> josh@hurunuilandcaregroup.co.nz
                 </p>
             </div>
+            <div class="col-md-6">
+            </div>
         </div>
-    </div>
-</section>
-<!--End About Sec-->
-
-
-<!--Footer Start-->
-<section class="text-center bg-blue m-0">
-    <h2 class="d-none">hidden</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p class="company-about fadeIn text-capitalize">© 2022 RuralConsulting.</a></p>
+        <hr class="hr-divider">
+        <div class="bottom-footer">
+            <div class="copyright">
+                <p>&copy; <span id="year">2023</span> Rural Consulting Limited</p>
             </div>
         </div>
     </div>
-</section>
-<!--Footer End-->
+</footer>
+<!-- FOOTER END -->
 
-
-
-<!--G0 Top-->
-<div class="go-top"><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-up"></i></div>
-<!--End Go Top-->
-
-
-<!-- JavaScript -->
-<script src="vendor/js/bundle.min.js"></script>
-<!-- Plugin Js -->
-<script src="vendor/js/jquery.fancybox.min.js"></script>
-<script src="vendor/js/owl.carousel.min.js"></script>
-<script src="vendor/js/swiper.min.js"></script>
-<script src="vendor/js/jquery.cubeportfolio.min.js"></script>
-<script src="vendor/js/jquery.appear.js"></script>
-<script src="vendor/js/wow.min.js"></script>
-<script src="vendor/js/flip.js"></script>
-<script src="vendor/js/jquery-ui.bundle.js"></script>
-<script src="vendor/js/select2.min.js"></script>
-<script src="vendor/js/jquery.hoverdir.js"></script>
-<script src="vendor/js/hover-item.js"></script>
-<script src="vendor/js/slick.min.js"></script>
-<script src="vendor/js/parallaxie.min.js"></script>
-<!-- REVOLUTION JS FILES -->
-<script src="vendor/js/jquery.themepunch.tools.min.js"></script>
-<script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
-<!-- SLIDER REVOLUTION EXTENSIONS -->
-<script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
-<script src="assets/js/script.js"></script>
-
+<script src='js/lib/jquery-3.5.1.min.js'></script>
+<script src='js/lib/bootstrap.min.js'></script>
+<script src='js/lib/main.js'></script>
 </body>
 </html>
-
