@@ -827,6 +827,10 @@
     padding: 1rem;
   }
 
+  .media-body p img {
+    width: 60px;
+    height: 60px;
+  }
   .layer-box .media-body h4 {
     color: #FFF;
     font-weight: 700;
@@ -936,7 +940,7 @@
 
   .counter-wrapper-alt .media .media-body p {
     margin-bottom: 0px;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 50px;
   }
 
