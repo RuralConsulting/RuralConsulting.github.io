@@ -1,4 +1,4 @@
-Hurunui District Landcare Group
+Rural Consulting Limited
 =======
 
-The code behind the HDLG website.
+The code behind the Rural Consulting website.
