@@ -146,7 +146,7 @@
 .navbar.fixed-top {
   position: fixed;
   top: 0;
-  background-color: var(--main-green-color);
+  background-color: var(--main-yellow-color);
 }
 
 .navbar.fixed-top.navbar-dark .navbar-nav .nav-link {
@@ -238,7 +238,7 @@
 
   .navbar.fixed-top.navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
     color: #FFF;
-    background: var(--main-green-color);
+    background: var(--main-yellow-color);
   }
 
   .navbar-dark .navbar-nav .nav-link:focus,
@@ -542,7 +542,7 @@ img{
   h5, .h5 {
     font-size: 1.25rem;
     font-family: 'Open Sans', sans-serif;
-    color: var(--main-green-color);
+    color: var(--main-yellow-color);
   }
   
   h6, .h6 {
@@ -573,13 +573,13 @@ ul{
 }
 
 a {
-    color: var(--main-green-color);
+    color: var(--main-dark-color);
     text-decoration: none;
     transition: 0.3s;
 }
 
 a:hover {
-	  color: var(--main-green-color);
+	  color: var(--main-yellow-color);
     text-decoration: underline;
 }
 
@@ -1006,7 +1006,7 @@ a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: var(--main-green-color);
+  background: var(--main-yellow-color);
   width: 70px;
   height: 70px;
   color: #FFF;
