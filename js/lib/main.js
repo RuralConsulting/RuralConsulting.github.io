@@ -1,6 +1,6 @@
 jQuery(function($) {
     $(window).on('scroll', function() {
-        if ($(this).scrollTop() >= 200) {
+        if ($(this).scrollTop() > 50) {
             $('.navbar').addClass('fixed-top');
         } else if ($(this).scrollTop() == 0) {
             $('.navbar').removeClass('fixed-top');
@@ -42,7 +42,7 @@ var heroContent = [
 function setRandomImageAndLabel() {
     var randomInt = 0;
     var target = document.getElementById('slider-image');
-    target.setAttribute("style", "background-image:url(images/" + heroContent[randomInt][0] + ");");
+    target.setAttribute("style", "background-image:url(assets/img/" + heroContent[randomInt][0] + ");");
 }
 
 function setYear() {

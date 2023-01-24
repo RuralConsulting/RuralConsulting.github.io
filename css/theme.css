@@ -3739,7 +3739,7 @@ section.pricing-plans {
     content: "\f058";
     margin-right: 15px;
     margin-left: 2rem;
-    color: var(--main-green-color);
+    color: var(--main-yellow-color);
     position: absolute;
     left: -1em;
   }
