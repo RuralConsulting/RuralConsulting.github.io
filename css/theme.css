@@ -955,16 +955,16 @@
     padding: 2rem 1rem;
     border-radius: 5px;
     margin: 1rem 0rem;
-    box-shadow: 0 0 74px rgba(10, 10, 10, 0.07);
   }
 
   .service-box .sb-icon {
-    width: 60px;
+    width: 80px;
     margin: auto;
   }
 
   .sb-caption {
     text-align: center;
+    margin-top: 1rem;
   }
 
   .sb-caption h4 {
@@ -3655,7 +3655,7 @@ section.pricing-plans {
     26. HOME PAGE ONE. 
   ====================================================*/
   .ag-home-about {
-    padding-top: 2rem;
+    /*padding-top: 2rem;*/
   }
 
   .ag-home-about h5 {
