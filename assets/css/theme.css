@@ -4110,6 +4110,23 @@ section.pricing-plans {
     overflow: hidden;
   }
 
+  /* Equal-height people cards within each row */
+  #our-people .item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #our-people .thumbnail-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #our-people .thumbnail-box-caption {
+    flex: 1;
+  }
+
   .thumbnail-box-caption {
     background-color: #fff;
     padding: 2rem 1.5rem;
